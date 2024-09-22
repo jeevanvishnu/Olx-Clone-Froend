@@ -1,0 +1,392 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 72px; 
+}
+
+header {
+    background-color: #EFF1F3;
+    height: 72px;
+    /* width: 100%; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    /* height: 100%; */
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li img {
+    width: 70px;
+    height: 50px;
+    background-color: #EFF1F3;
+    color: #EFF1F3;
+    mix-blend-mode: multiply;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+nav li input.First-input:focus {
+    outline: none;
+    border: 2px solid #23E5DB;
+}
+
+nav input.First-input {
+    width: 272px;
+    height: 48px;
+    margin-left: 10px;
+    padding-left: 33px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.First-input {
+    border: 2px solid #002F34;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.first-list {
+    position: relative;
+}
+
+#Search-icon {
+    position: absolute;
+    top: 11px;
+    left: 13px;
+}
+
+#Clever-down {
+    position: absolute;
+    top: 7px;
+    right: 17px;
+    font-size: 22px;
+}
+
+li.Secound-list {
+    margin-left: 20px;
+    position: relative;
+}
+
+.Finding:focus {
+    outline: none;
+    border: 2px solid #23E5DB;
+}
+
+.Finding {
+    width: 641px;
+    height: 48px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 2px solid #002F34;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+#Find-Search {
+    position: absolute;
+    right: 1px;
+    top: 5px;
+    font-size: 19px;
+    background-color: #002F34;
+    color: white;
+    padding: 14px;
+}
+
+
+
+.language {
+    margin-left: 23px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #002F34;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#language-Cleaver {
+    
+    font-size: 20px;
+}
+
+.Fourt-list {
+    margin-left: 11px;
+    margin-top: 10px;
+}
+
+.Login {
+    font-size: 16px;
+    border-bottom: 2px solid #002F34;
+    font-weight: 700;
+    line-height: 18.4px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.Fift-list {
+    margin-top: 10px;
+}
+
+.sell {
+    width: 111px;
+    height: 49px;
+    background: none;
+}
+
+section.container {
+    margin-left: 32px;
+    margin-top: 15px;
+    background-color: white;
+    width: 100%;
+}
+
+section.container span:first-child {
+    color: #002F34;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.4px;
+}
+
+section span > i {
+    font-size: 20px;
+}
+
+section span {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #002F34;
+    cursor: pointer;
+}
+
+section > span:hover {
+    color: dodgerblue;
+}
+
+.Add-section {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+section .wrapper {
+    width: 100%;
+    background-color: #F8F9FA;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+section > img {
+    margin-top: 20px;
+    justify-items: center;
+    margin-left: 127px;
+}
+
+span.Heading {
+    font-size: 24px;
+    color: #002F34;
+    margin-left: 50px;
+    font-weight: 540;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px; /* Space between the columns */
+    margin: 20px;
+    position: relative;
+}
+
+.Card-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.Cards {
+    background: white;
+    border: 1px solid #CFCDCD;
+    border-radius: 4px;
+    padding: 15px;
+    width: 288px;
+    margin-left: 27px;
+    position: relative;
+}
+
+.Cards-image {
+    position: relative;
+}
+
+.Cards-image img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.fa-regular.fa-heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding: 4px;
+}
+ .Card-Add{
+    background-color: #3A77FF;
+    width: 288px;
+    height: 292px;
+    margin-left: 28px;
+}
+.Card-heading{
+    margin-top: 14px;
+    text-align: center;
+    
+    
+}
+.Card-h4 {
+    margin: 0;
+    color: white;
+    margin-bottom: 18px;
+    font-weight: bolder;
+    font-size: 16px;
+} 
+.Card-Span{
+    color: white;
+    font-size: 14px;
+
+}
+ div >.Card-button{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #3A77FF;
+    margin-top: 105px;
+    width: 84%;
+    height: 40px;
+    border: 2px solid white;
+
+}
+.Card-button:hover{
+  border: 4px solid white;
+}
+.Card-rupee {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Card-description {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.Card-week {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #888;
+    margin-top: 16px;
+}
+
+.button-div {
+    width: 91%;
+    text-align: center;
+    margin-left: 23px;
+}
+
+    
+.Load {
+    width: 101px;
+    height: 41px;
+    border: 2px solid #002F34;
+    font-size: 16px;
+    font-weight:bolder;
+    border-radius: 4px;
+}
+.Load:hover{
+    border: 5px solid #002F34;
+}
+
+footer .footer {
+    margin-top: 50px;
+    padding-top: 18px;
+    width: 100%;
+    height: 200px;
+    background-color: #EFF1F3;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer span {
+    color: #002F34;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+div h6 {
+    margin-top: 7px;
+    color: #626b6e;
+    font-weight: lighter;
+}
+
+.add-container {
+    width: 100%;
+    height: 200px;
+    background-color: #002F34;
+}
+
+.add-image {
+    width: 210px;
+    height: 96px;
+    margin-left: 85px;
+    margin-top: 25px;
+}
+
+.image {
+    width: 144px;
+    height: 60px;
+    margin-left: 44px;
+}
+
+.last-section {
+    margin-top: 39px;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-left: 112px;
+    margin-right: 92px;
+}
+
+.fa-brands {
+    padding: 10px;
+    color: #626b6e;
+}
+
+.fa-solid {
+    padding: 10px;
+    color: #626b6e;
+}
+
+.follow-img {
+    margin-top: 40px;
+}
